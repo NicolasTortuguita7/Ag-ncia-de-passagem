@@ -13,11 +13,11 @@
         <h1>Agendamento de Viagem</h1>
         <br>
         <h3>⚠️Atenção⚠️</h3>
-        <p>Por favor, preencha os dados abaixo para agendar sua viagem,mas mesmo que você for agendar a uma viagem internacional 
-        você precisa preencher os requisitos do Voo Nacional porque também faz parte dos requisitos internacionais</p>
+        <p><b>Por favor, preencha os dados abaixo para agendar sua viagem, mas mesmo que você for agendar a uma viagem internacional 
+        você precisa preencher os requisitos do Voo Nacional porque também faz parte dos requisitos internacionais</b></p>
         <hr>
     </header>
-    <main style="background-color: #9ba8abff; ">
+    <main style="background-color: #9ba8abff;border: 2px solid #000; ">
         <form action="LogicaController.php" method="POST">
         <h1>Requisito de Voo Nacional</h1>
         <label for="nomePassageiro">Nome do passageiro:</label>
@@ -50,10 +50,6 @@
         <label for="Passaporte">Passaporte:</label>
         <br>
         <input type="text" name="Passaporte" id="Passaporte" placeholder="Digite seu passaporte">
-        <br><br>
-        <label for="Numerodacompre">Número da compra:</label>
-        <br>
-        <input type="text" name="Numerodacompre" id="Numerodacompre" placeholder="Digite o número da compra">
         <br><br>
         <label for="CNH">CNH:</label>
         <br>
@@ -107,7 +103,6 @@
         <input type="checkbox" name="IdadeMenor" id="IdadeMenor" value="nao">
         <label for="IdadeMenor">Não</label>
         <br><br>
-        <!-- aviões dispóniveis -->
         <label for="Avião">Avião Disponível:</label>
         <br>
         <select name="Avião" id="Avião">
@@ -117,10 +112,38 @@
             <option value="Bombardier CRJ900">Bombardier CRJ900</option>
         </select>
         <br><br>
-        <button type="submit">Agendar Viagem</button>
+        <label for="Passaporte">Possui passaporte?</label>
+        <br>
+        <input type="checkbox" name="Passaporte" id="Passaporte" value="sim">
+        <label for="Passaporte">Sim</label>
+        <br>
+        <input type="checkbox" name="Passaporte" id="Passaporte" value="nao">
+        <label for="Passaporte">Não</label>
+        <br><br>
+        <label for="CompraPassaporte">Deseja comprar passaporte?:</label>
+        <br>
+        <input type="checkbox" name="CompraPassaporte" id="CompraPassaporte" value="sim">
+        <label for="CompraPassaporte">Sim</label>
+        <br>
+        <input type="checkbox" name="CompraPassaporte" id="CompraPassaporte" value="nao">
+        <label for="CompraPassaporte">Não</label>
+        <br><br>
+        <label for="Numerodacompre">Passaportes Disponíveis</label>
+        <br>
+        <select name="Numerodacompre" id="Numerodacompre">
+            <option value="Passaporte 1">Passaporte Nacional: R$ 257,25</option>
+            <option value="Passaporte 2">Passaporte Internacional: R$ 500,00</option>
+            <option value="Passaporte 3">Não desejo comprar passaporte</option>
+        </select>
+        <br><br>
+        <button type="submit" style="background-color: #1e5dccff; color: white; padding: 14px 20px; border: none; cursor: pointer;">Agendar Viagem</button>
         </form>
-        <h2 style="text-align: center;">Sobre Nós</h2>
-        <p style="text-align: center;">Somos uma agência de viagens especializada em oferecer os melhores pacotes turísticos para você e sua família. Com anos de experiência no mercado, garantimos um serviço de qualidade e atendimento personalizado.</p>
+        <footer>
+            <h2 style="text-align: center;">Sobre Nós</h2>
+            <p style="text-align: center;">Somos uma agência de viagens especializada em oferecer os melhores pacotes turísticos para você e sua família. Com anos de experiência no mercado, garantimos um serviço de qualidade e atendimento personalizado
+                para as pessoas e declaramos uma boa viagem e muito Obrigado.</p>
+            <p style="text-align: center;">&copy; 2023 Agência de Viagens. Todos os direitos reservados.</p>
+        </footer>
     </main>
 </body>
 </html>
