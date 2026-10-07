@@ -16,17 +16,17 @@
     <table>
 
       <tr>
-        <td>Atenção</td>
+        <td>Atenção:</td>
         <td><?= $situação3 ?></td>
       </tr>
 
       <tr>
-        <td>Nome do passageiro</td>
+        <td>Nome do passageiro:</td>
         <td><?= $dado['NomePassageiro'] ?></td>
       </tr>
 
       <tr>
-        <td>Gênero</td>
+        <td>Gênero:</td>
         <td><?= $dado['genero'] ?></td>
       </tr>
 
@@ -36,87 +36,87 @@
       </tr>
 
       <tr>
-        <td>CNH</td>
+        <td>CNH:</td>
         <td><?= $dado['CNH'] ?></td>
       </tr>
 
       <tr>
-        <td>CPF</td>
+        <td>CPF:</td>
         <td><?= $dado['CPF'] ?></td>
       </tr>
 
       <tr>
-        <td>RG</td>
+        <td>RG:</td>
         <td><?= $dado['RG'] ?></td>
       </tr>
 
       <tr>
-        <td>Passaporte</td>
+        <td>Passaporte:</td>
         <td><?= $dado['Passaporte'] ?></td>
       </tr>
 
       <tr>
-        <td>Telefone</td>
+        <td>Telefone:</td>
         <td><?= $dado['Telefone'] ?></td>
       </tr>
 
       <tr>
-        <td>Data de viagem</td>
+        <td>Data de viagem:</td>
         <td><?= $dado['DataViagem'] ?></td>
       </tr>
                                              
       <tr>
-        <td>Viagem Nacional</td>
+        <td>Viagem Nacional:</td>
         <td><?= $mensagemLocal ?></td>
       </tr>
       
       <tr>
-        <td>Viagem Internacional</td>
+        <td>Viagem Internacional:</td>
         <td><?= $mensagemLocal2 ?></td>
       </tr>
                                              
       <tr>
-        <td>Hora de viagem</td>
+        <td>Hora de viagem:</td>
         <td><?= $dado['Horaviagem'] ?></td>
       </tr>
 
       <tr>
-        <td>E-mail</td>
+        <td>E-mail:</td>
         <td><?= $dado['Email'] ?></td>
       </tr>
 
       <tr>
-        <td>Carteira de vacinação</td>
+        <td>Carteira de vacinação:</td>
         <td><?= $dado['CarteiradeV'] ?></td>
       </tr>
 
       <tr>
-        <td>Autorização para menor</td>
+        <td>Autorização para menor:</td>
         <td><?= $dado['idadeMenor'] ?></td>
       </tr>
 
       <tr>
-        <td>Situação da idade</td>
+        <td>Situação da idade:</td>
         <td><?= $situação1 ?></td>
       </tr>
 
       <tr>
-        <td>Situação do passaporte</td>
+        <td>Situação do passaporte:</td>
         <td><?= $situacaoPassaporte ?></td>
       </tr>
 
       <tr>
-        <td>Autorização</td>
+        <td>Autorização:</td>
         <td><?= $situação2 ?></td>
       </tr>
 
       <tr>
-        <td>Passaporte comprado</td>
+        <td>Passaporte comprado:</td>
         <td><?= $dado['CompraPassaporte'] ?></td>
       </tr>
 
       <tr>
-        <td>Tipo de passaporte</td>
+        <td>Tipo de passaporte:</td>
         <td><?= $situação4 ?></td>
       </tr>
         </table>

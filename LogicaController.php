@@ -84,7 +84,7 @@ if ($_POST['Cidade'] == 'Recife') {
     $mensagemLocal = "Minha viagem será Internacional";
 }
 
-}
+
   if ($_POST['Paises'] == 'Franca') {
     $mensagemLocal2 = "Você escolheu viajar para a França!";
 } elseif ($_POST['Paises'] == 'Italia') {

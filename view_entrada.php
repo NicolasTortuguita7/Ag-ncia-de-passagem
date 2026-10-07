@@ -129,8 +129,8 @@
             <option value="China">China</option>
             <option value="nao">Farei uma viagem Nacional</option>
         </select>
+         <br><br>
         <label for="Avião">Aviões Disponível:</label>
-        <br>
         <select name="Avião" id="Avião">
             <option value="Boeing 737">Boeing 737</option>
             <option value="Airbus A320">Airbus A320</option>
