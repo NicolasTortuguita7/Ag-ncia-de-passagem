@@ -8,12 +8,12 @@
 <body>
     <header style="background-color: #9ba8abff; text-align: center;">
         <br>
-        
+       
         <img src="ChatGPT Image 30 de set. de 2026, 14_46_39.png" width="400" alt="">
         <h1>Agendamento de Viagem</h1>
         <br>
         <h3>⚠️Atenção⚠️</h3>
-        <p><b>Por favor, preencha os dados abaixo para agendar sua viagem, mas mesmo que você for agendar a uma viagem internacional 
+        <p><b>Por favor, preencha os dados abaixo para agendar sua viagem, mas mesmo que você for agendar a uma viagem internacional
         você precisa preencher os requisitos do Voo Nacional porque também faz parte dos requisitos internacionais</b></p>
         <hr>
     </header>
@@ -63,6 +63,19 @@
         <br>
         <input type="tel" name="Telefone" id="Telefone" placeholder="Digite seu telefone">
         <br><br>
+        <label for="Cidade">Cidades Disponíveis</label>
+        <br>
+        <select name="Cidade" id="Cidade">
+          <option value="Recife">Recife</option>
+          <option value="Maceio">Maceió</option>
+          <option value="Fortaleza">Fortaleza</option>
+          <option value="Porto Alegre">Porto Alegre</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Curitiba">Curitiba</option>
+          <option value="Belo Horizonte">Belo Horizonte</option>
+          <option value="Nao">Farei viagem internacional</option>
+        </select>
+        <br><br>
         <label for="DataViagem">Data da viagem:</label>
         <br>
         <input type="date" name="DataViagem" id="DataViagem">
@@ -88,7 +101,7 @@
             <option value="22:00">22:00</option>
             <option value="23:59">23:59</option>
         </select>
-        <br>
+        <br><br>
         <h1>Requisito de Voo Internacional</h1>
         <br>
         <label for="CarteiradeV">Carteira de Vacinação:</label>
@@ -103,7 +116,20 @@
         <input type="checkbox" name="IdadeMenor" id="IdadeMenor" value="nao">
         <label for="IdadeMenor">Não</label>
         <br><br>
-        <label for="Avião">Avião Disponível:</label>
+        <label for="LocalViagemI">Viagens Disponíveis</label>
+        <br>
+        <select name="Paises" id="Paises">
+            <option value="Franca">França</option>
+            <option value="Italia">Italia</option>
+            <option value="Japao">Japão</option>
+            <option value="Argentina">Argentina</option>
+            <option value="EUA">Estados Unidos da América</option>
+            <option value="CRS">Coreia do Sul</option>
+            <option value="CRN">Coreia do Norte</option>
+            <option value="China">China</option>
+            <option value="nao">Farei uma viagem Nacional</option>
+        </select>
+        <label for="Avião">Aviões Disponível:</label>
         <br>
         <select name="Avião" id="Avião">
             <option value="Boeing 737">Boeing 737</option>
